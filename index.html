@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="apresentacao__titulo">Rendimento de um aluno</h1>
+    <main class="apresentacao">
+        <section class="apresentacao__titulo__sessao">
+            <div class="apresentacao__titulo__sessao__div">
+                <p>Nome: <input type="text" id="nome"></p>
+                <p>Série : <input type="text" id="serie"></p>
+                <p>Nota1: <input type="number" id="nota1"></p>
+                <p>Nota2: <input type="number" id="nota2"></p>
+            </div>
+            <div>
+                <input type="button" value="Calcular rendimento" id="butao" onclick="calcular()">
+            </div>
+        </section>
+        <div id="resultado">
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
